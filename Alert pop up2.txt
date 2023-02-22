@@ -1,0 +1,12 @@
+"http://uitestpractice.com/Students/Switchto"
+
+
+driver.findElement(By.xpath("//button[@id='prompt']"))
+//switch to alert window and accept the alert
+driver.switchTo().alert().sendKeys(""prachi);
+driver.switchTo().alert().dismiss(); //to cancle alert
+
+Popup ---
+1. calender popup
+
+https://www.americanairlines.in/
